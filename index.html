@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <div> 
+       <h2> Digite um Valor: </h2>
+        <input type="number" id="num" name="num"> 
+        <input type="button" value="Inserir" onclick="adicionar()">
+        <h6>Digite o índice do número que você deseja remover:</h6>
+        <input type="number" id="rem1" name="rem1"> 
+        <input type="button" value="Remover" onclick="remover()">
+
+        
+        
+        <div>
+            <h3>Lista</h3>
+            <ol start="0" id="lista1">
+            </ol>
+        </div>
+
+    </div>
+    </section>
+    <br>
+    <section>
+    <div> 
+       <h2> Digite um Valor: </h2>
+        <input type="number" id="num1" name="num1">
+        <input type="button" value="Inserir" onclick="inserir()">
+        <h6>Digite o índice do número que você deseja remover:</h6>
+        <input type="number" id="rem2" name="rem2"> 
+        <input type="button" value="Remover" onclick="retirar()">
+       
+        <div>
+            <h3>Lista</h3>
+            <ol start="0" id="lista2">
+            </ol>
+        </div>
+    </div>
+    </section>  
+
+ 
+</body>
+<script src="script.js"></script>
+</html>
